@@ -11,6 +11,54 @@
   --dark-primary: "";
   --dark-secondary: "";
 
+  /* Primary Variants*/
+  --light-primary-100: "";
+  --light-primary-90: "";
+  --light-primary-80: "";
+  --light-primary-70: "";
+  --light-primary-60: "";
+  --light-primary-50: "";
+  --light-primary-40: "";
+  --light-primary-30: "";
+  --light-primary-20: "";
+  --light-primary-10: "";
+
+  --dark-primary-100: "";
+  --dark-primary-90: "";
+  --dark-primary-80: "";
+  --dark-primary-70: "";
+  --dark-primary-60: "";
+  --dark-primary-50: "";
+  --dark-primary-40: "";
+  --dark-primary-30: "";
+  --dark-primary-20: "";
+  --dark-primary-10: "";
+
+  /* Secondary Variants*/
+  --light-secondary-100: "";
+  --light-secondary-90: "";
+  --light-secondary-80: "";
+  --light-secondary-70: "";
+  --light-secondary-60: "";
+  --light-secondary-50: "";
+  --light-secondary-40: "";
+  --light-secondary-30: "";
+  --light-secondary-20: "";
+  --light-secondary-10: "";
+
+  --dark-secondary-100: "";
+  --dark-secondary-90: "";
+  --dark-secondary-80: "";
+  --dark-secondary-70: "";
+  --dark-secondary-60: "";
+  --dark-secondary-50: "";
+  --dark-secondary-40: "";
+  --dark-secondary-30: "";
+  --dark-secondary-20: "";
+  --dark-secondary-10: "";
+
+
+
   /* Backgrounds */
   --light-background-primary: "";
   --light-background-secondary: "";

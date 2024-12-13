@@ -1,3 +1,182 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+
+  /* Brand Colors */
+  --light-primary: "";
+  --light-secondary: "";
+
+  --dark-primary: "";
+  --dark-secondary: "";
+
+  /* Backgrounds */
+  --light-background-primary: "";
+  --light-background-secondary: "";
+
+  --dark-background-primary: "";
+  --dark-background-secondary: "";
+
+  /* Text */
+  --light-text-primary: "";
+  --light-text-secondary: "";
+  --light-text-muted:"";
+
+  --dark-text-primary: "";
+  --dark-text-secondary: "";
+  --dark-text-muted:"";
+
+  /* Light Mode*/ 
+  [data-theme="light"]{
+
+  /* 1. Background Colors: */
+  --background-primary: ""; /* The main background color (e.g., page background). */
+  --background-secondary: ""; /*Used for sectioning, cards, or containers.*/
+  --background-tertiary: ""; /*Additional background color for deeper sections or panels.*/
+  --background-accent: ""; /*For special sections or highlights (e.g., notifications, callouts).*/
+
+  /* 2. Text Colors: */
+  --text-primary: ""; /*Main text color (e.g., for body text).*/
+  --text-secondary: ""; /*For secondary or less prominent text (e.g., subtitles, meta info).*/
+  --text-muted: ""; /*For muted or disabled text (e.g., placeholders).*/
+  --text-inverse: ""; /*Text that appears on dark backgrounds (e.g., buttons on dark sections).*/
+
+  /* 3. Border Colors: */
+  --border-primary: ""; /*General borders (e.g., around containers, cards).*/
+  --border-secondary: ""; /*For subtler borders or dividers.*/
+  --border-focus: ""; /*Borders for focused elements (e.g., inputs, buttons).*/
+  --border-accent: ""; /*For important or emphasized borders (e.g., validation highlights).*/
+
+  /* 4. Button Colors: */
+  --button-primary-bg: ""; /*Background color for primary action buttons.*/
+  --button-primary-text: ""; /*Text color for primary action buttons.*/
+  --button-secondary-bg: ""; /*Background color for secondary action buttons.*/
+  --button-secondary-text: ""; /*Text color for secondary action buttons.*/
+  --button-hover-bg: ""; /*Hover state background color for buttons.*/
+  --button-disabled-bg: ""; /*Disabled button background color.*/
+
+  /* 5. Link Colors: */
+  --link-color: ""; /*Regular link color.*/
+  --link-hover-color: ""; /*Link color on hover or focus.*/
+  --link-visited-color: ""; /*For visited links (optional, if needed).*/
+
+  /* 6. Accent/Highlight Colors: */
+  --accent-color: ""; /*Used for UI accents or special highlights (e.g., notifications, badges).*/
+  --highlight-bg: ""; /*Background color for highlighted items (e.g., selected menu items).*/
+  --highlight-text: ""; /*Text color for highlighted items.*/
+
+  /* 7. Input Colors: */
+  --input-background: ""; /*Background color for input fields.*/
+  --input-text: ""; /*Text color inside input fields.*/
+  --input-border: ""; /*Border color for input fields.*/
+  --input-placeholder: ""; /*Placeholder text color.*/
+  --input-focus-border: ""; /*Border color when input is focused.*/
+
+  /* 8. Table Colors (if applicable): */
+  --table-header-bg: ""; /*Background color for table headers.*/
+  --table-header-text: ""; /*Text color for table headers.*/
+  --table-row-bg: ""; /*Background color for table rows.*/
+  --table-row-hover-bg: ""; /*Background color when hovering over table rows.*/
+
+  /* 9. Notification/Alert Colors: */
+  --success-bg: ""; /*Background color for success alerts.*/
+  --success-text: ""; /*Text color for success alerts.*/
+  --error-bg: ""; /*Background color for error alerts.*/
+  --error-text: ""; /*Text color for error alerts.*/
+  --warning-bg: ""; /*Background color for warning alerts.*/
+  --warning-text: ""; /*Text color for warning alerts.*/
+  --info-bg: ""; /*Background color for informational alerts.*/
+  --info-text: ""; /*Text color for informational alerts.*/
+
+  /* 10. Shadow & Overlay Colors: */
+  --shadow-color: ""; /*Color for shadows on elements like cards, modals, etc.*/
+  --overlay-color: ""; /*Background color for overlays (e.g., modal backgrounds, hover overlays).*/
+
+  /* 11. Modal/Dialog Colors: */
+  --modal-background: ""; /*Background color for modals or dialogs.*/
+  --modal-text: ""; /*Text color inside modals or dialogs.*/
+  --modal-border: ""; /*Border color around modals or dialogs.*/
+
+  /* 12. Tooltip Colors: */
+  --tooltip-background: ""; /*Background color for tooltips.*/
+  --tooltip-text: ""; /*Text color for tooltips.*/
+  }
+
+
+  /* Dark Mode */
+  [data-theme="dark"]{
+
+    /* 1. Background Colors: */
+  --background-primary: ""; /* The main background color (e.g., page background). */
+  --background-secondary: ""; /*Used for sectioning, cards, or containers.*/
+  --background-tertiary: ""; /*Additional background color for deeper sections or panels.*/
+  --background-accent: ""; /*For special sections or highlights (e.g., notifications, callouts).*/
+
+  /* 2. Text Colors: */
+  --text-primary: ""; /*Main text color (e.g., for body text).*/
+  --text-secondary: ""; /*For secondary or less prominent text (e.g., subtitles, meta info).*/
+  --text-muted: ""; /*For muted or disabled text (e.g., placeholders).*/
+  --text-inverse: ""; /*Text that appears on dark backgrounds (e.g., buttons on dark sections).*/
+
+  /* 3. Border Colors: */
+  --border-primary: ""; /*General borders (e.g., around containers, cards).*/
+  --border-secondary: ""; /*For subtler borders or dividers.*/
+  --border-focus: ""; /*Borders for focused elements (e.g., inputs, buttons).*/
+  --border-accent: ""; /*For important or emphasized borders (e.g., validation highlights).*/
+
+  /* 4. Button Colors: */
+  --button-primary-bg: ""; /*Background color for primary action buttons.*/
+  --button-primary-text: ""; /*Text color for primary action buttons.*/
+  --button-secondary-bg: ""; /*Background color for secondary action buttons.*/
+  --button-secondary-text: ""; /*Text color for secondary action buttons.*/
+  --button-hover-bg: ""; /*Hover state background color for buttons.*/
+  --button-disabled-bg: ""; /*Disabled button background color.*/
+
+  /* 5. Link Colors: */
+  --link-color: ""; /*Regular link color.*/
+  --link-hover-color: ""; /*Link color on hover or focus.*/
+  --link-visited-color: ""; /*For visited links (optional, if needed).*/
+
+  /* 6. Accent/Highlight Colors: */
+  --accent-color: ""; /*Used for UI accents or special highlights (e.g., notifications, badges).*/
+  --highlight-bg: ""; /*Background color for highlighted items (e.g., selected menu items).*/
+  --highlight-text: ""; /*Text color for highlighted items.*/
+
+  /* 7. Input Colors: */
+  --input-background: ""; /*Background color for input fields.*/
+  --input-text: ""; /*Text color inside input fields.*/
+  --input-border: ""; /*Border color for input fields.*/
+  --input-placeholder: ""; /*Placeholder text color.*/
+  --input-focus-border: ""; /*Border color when input is focused.*/
+
+  /* 8. Table Colors (if applicable): */
+  --table-header-bg: ""; /*Background color for table headers.*/
+  --table-header-text: ""; /*Text color for table headers.*/
+  --table-row-bg: ""; /*Background color for table rows.*/
+  --table-row-hover-bg: ""; /*Background color when hovering over table rows.*/
+
+  /* 9. Notification/Alert Colors: */
+  --success-bg: ""; /*Background color for success alerts.*/
+  --success-text: ""; /*Text color for success alerts.*/
+  --error-bg: ""; /*Background color for error alerts.*/
+  --error-text: ""; /*Text color for error alerts.*/
+  --warning-bg: ""; /*Background color for warning alerts.*/
+  --warning-text: ""; /*Text color for warning alerts.*/
+  --info-bg: ""; /*Background color for informational alerts.*/
+  --info-text: ""; /*Text color for informational alerts.*/
+
+  /* 10. Shadow & Overlay Colors: */
+  --shadow-color: ""; /*Color for shadows on elements like cards, modals, etc.*/
+  --overlay-color: ""; /*Background color for overlays (e.g., modal backgrounds, hover overlays).*/
+
+  /* 11. Modal/Dialog Colors: */
+  --modal-background: ""; /*Background color for modals or dialogs.*/
+  --modal-text: ""; /*Text color inside modals or dialogs.*/
+  --modal-border: ""; /*Border color around modals or dialogs.*/
+
+  /* 12. Tooltip Colors: */
+  --tooltip-background: ""; /*Background color for tooltips.*/
+  --tooltip-text: ""; /*Text color for tooltips.*/
+  }
+}

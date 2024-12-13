@@ -60,11 +60,11 @@
 
 
   /* Backgrounds */
-  --light-background-primary: "";
-  --light-background-secondary: "";
-
-  --dark-background-primary: "";
-  --dark-background-secondary: "";
+	--light-background-primary: rgb(245, 245, 245, 1);
+	--light-background-secondary: rgb(235, 235, 235, 1);
+  
+	--dark-background-primary: rgba(31, 31, 31, 1);
+	--dark-background-secondary: rgba(38, 38, 38, 1);
 
   /* Text */
   --light-text-primary: "";
@@ -79,8 +79,8 @@
   [data-theme="light"]{
 
   /* 1. Background Colors: */
-  --background-primary: ""; /* The main background color (e.g., page background). */
-  --background-secondary: ""; /*Used for sectioning, cards, or containers.*/
+  --background-primary: var(--light-background-primary); /* The main background color (e.g., page background). */
+  --background-secondary: var(--light-background-secondary); /*Used for sectioning, cards, or containers.*/
   --background-tertiary: ""; /*Additional background color for deeper sections or panels.*/
   --background-accent: ""; /*For special sections or highlights (e.g., notifications, callouts).*/
 
@@ -156,8 +156,8 @@
   [data-theme="dark"]{
 
     /* 1. Background Colors: */
-  --background-primary: ""; /* The main background color (e.g., page background). */
-  --background-secondary: ""; /*Used for sectioning, cards, or containers.*/
+  --background-primary: var(--dark-background-primary); /* The main background color (e.g., page background). */
+  --background-secondary: var(--dark-background-secondary); /*Used for sectioning, cards, or containers.*/
   --background-tertiary: ""; /*Additional background color for deeper sections or panels.*/
   --background-accent: ""; /*For special sections or highlights (e.g., notifications, callouts).*/
 
@@ -227,4 +227,12 @@
   --tooltip-background: ""; /*Background color for tooltips.*/
   --tooltip-text: ""; /*Text color for tooltips.*/
   }
+}
+
+body{
+  background-color: var(--background-primary);
+}
+
+.leel{
+  background-color: var(--background-secondary);
 }
